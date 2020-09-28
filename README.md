@@ -14,10 +14,10 @@ A website to connect founders, investors, and developers.
 ## **Client Partner Information**
 
 ### *Company:*
-
+Startup
 
 ### *People:*
-
+- Trey Gourley
 ## **Links**
 
 - [Project description](ProjectDescription.md)
