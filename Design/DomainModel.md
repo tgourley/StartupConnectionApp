@@ -1,6 +1,6 @@
 # Domain Model
 
-![Domain Model](Auxiliary%20Files/Domain_Model.jpg)
+![Domain Model](../Auxiliary%20Files/Domain_Model.jpg)
 
 ## Classes
 
