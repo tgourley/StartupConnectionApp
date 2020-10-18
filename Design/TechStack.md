@@ -1,8 +1,8 @@
 # Tech Stack
 
-### Front-End Development: Angular JS
-* We chose Angular due to most of us not having experience with any front-end development framework and Chris had some experience with the framework.
-* [Angular JS](https://angularjs.org)
+### Front-End Development: Angular 
+* We initially thought we would use Angular JS because Chris had some experience with it. After talking to our mentor, we decided that Angular would be a better choice for our front end development because it is easier to acclimate to as developers with little front end experience.
+* [Angular](https://angular.io)
 
 ### Back-End Development: Microsoft .NET
 * This was chosen by Trey’s request. Since he works primarily in .Net he would like us to create the app’s business logic using it.
