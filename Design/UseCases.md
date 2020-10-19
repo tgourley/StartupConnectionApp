@@ -17,7 +17,7 @@
   * BR1
   
 * **UC2** Define keywords for pitch.
-  * Certain keywords are associated with different types of pitches. Being able to define by keywords for a pitch during pitch creation is important because it gives it a category for interested users to search in. Founders will search for pitches they're interested in based on those keywords. 
+  * Certain keywords are associated with different types of pitches. Being able to define by keywords for a pitch during pitch creation is important because it gives it a category for interested users to search in. Investors will search for pitches they're interested in based on those keywords. 
   * Inside of the project creation menu there will be a text box titled "Keywords". The founder can select this text box to enter 
   * Actors: Founder
   * BR1
@@ -29,7 +29,7 @@
   * BR2
   
 * **UC4** Create statistical graphics.
-  * Statistical graphs will be used to represent data about a project. It will provide useful information that can be used to see if the project is on a good path or not. It will beneficial because it will provide concrete details on how quickly and efficiently the project is progressing.
+  * Statistical graphs will be used to represent data about a project. It will provide useful information that can be used to see if the project is on a good path or not. It will be beneficial because it will provide concrete details on how quickly and efficiently the project is progressing.
   * The system will create the graphs under the Graphs page. It will collect the input over the course of the project.
   * Actors: System, Founder
   * BR2
