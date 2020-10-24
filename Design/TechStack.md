@@ -1,8 +1,8 @@
 # Tech Stack
 
-### Front-End Development: Angular 
-* We initially thought we would use Angular JS because Chris had some experience with it. After talking to our mentor, we decided that Angular would be a better choice for our front end development because it is easier to acclimate to as developers with little front end experience.
-* [Angular](https://angular.io)
+### Front-End Development: Vue.JS
+* We decided to use Vue due little front end experience. After talking with our client we found out that Vue is an up and coming front end development tool that could be worth learning in the process. Another deciding factor was the fact that Vue is in discussion to be integrated into our clients work environment. 
+* [Vue.JS](https://vuejs.org)
 
 ### Back-End Development: Microsoft .NET
 * This was chosen by Trey’s request. Since he works primarily in .Net he would like us to create the app’s business logic using it.
