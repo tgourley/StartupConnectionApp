@@ -24,7 +24,7 @@
   * Actors: Founder
   * BR1
 
-* **UC3** Filter profrane and vulgar pitch keywords
+* **UC3** Filter profane and vulgar pitch keywords
   * Admins need the ability to filter out tags and pitch pages that use obscene and vulgar language or have a negative purpose. We want the application to allow adult content, but all within reason. Anything that isn't formal and decent should be able to be blocked or disabled from view by an admin.
   * An admin would go to the search page and either search for vulgar language in titles or by tags and disable them accordingly with buttons located on each pitch holder.
   * Actors: Administrator
