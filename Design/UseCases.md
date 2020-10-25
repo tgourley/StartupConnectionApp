@@ -12,15 +12,15 @@
 * **Administrator** - System support, processing management, SuperUser, security
 
 ## Use Cases
-* **UC1** Search for projects.
-  * Searching for projects is a fundamental and necessary part of the system. It will allow the actors of our system to find different projects to inquire about. They may not join them, but having the ability to search for them will give them the opportunity to find projects they prefer.
-  * To use this function the actor will locate the search function on the page and filter for the project their looking for by name.
+* **UC1** Search for pitches.
+  * Searching for pitches is a fundamental and necessary part of the system. It will allow the actors of our system to find different pitches to inquire about. They may not join them, but having the ability to search for them will give them the opportunity to find pitches they prefer.
+  * To use this function the actor will locate the search function on the page and filter for the pitches their looking for by name.
   * Actors: Developer, Investor, System
   * BR1
   
 * **UC2** Define keywords for pitch.
   * Certain keywords are associated with different types of pitches. Being able to define by keywords for a pitch during pitch creation is important because it gives it a category for interested users to search in. Investors will search for pitches they're interested in based on those keywords. 
-  * Inside of the project creation menu there will be a text box titled "Keywords". The founder can select this text box to enter 
+  * Inside of the pitches creation menu there will be a text box titled "Keywords". The founder can select this text box to enter 
   * Actors: Founder
   * BR1
 
@@ -37,13 +37,13 @@
   * BR2
   
 * **UC5** Create statistical graphics.
-  * Statistical graphs will be used to represent data about a project. It will provide useful information that can be used to see if the project is on a good path or not. It will be beneficial because it will provide concrete details on how quickly and efficiently the project is progressing.
-  * The system will create the graphs under the Graphs page. It will collect the input over the course of the project.
+  * Statistical graphs will be used to represent data about a pitches. It will provide useful information that can be used to see if the pitch is on a good path or not. It will be beneficial because it will provide concrete details on how quickly and efficiently the pitch is progressing.
+  * The system will create the graphs under the Graphs page. It will collect the input over the course of the pitch.
   * Actors: System, Founder
   * BR2
   
 * **UC6** Format pitch page.
-  * The founder needs to bring developers and investors into their project. They can accomplish through through formatting their pitch page in a way that attracts their target audience. Their pitch page should catch the attention of the intended audience quickly.
+  * The founder needs to bring developers and investors into their pitch. They can accomplish through through formatting their pitch page in a way that attracts their target audience. Their pitch page should catch the attention of the intended audience quickly.
   * In order to format the pitch page it needs to be created first. Then, the founder would display the information where it needs to go through drag and drop. The founder may want slides in the middle of the pitch page, or page interactions in the upper right of the page. They will decide where items such as statstics are placed and the general information of the page.
   * Actors: Founder
   * BR2
@@ -55,12 +55,12 @@
   * BR2
 
 * **UC8** Send direct messages.
-  * This is a very important feature because it will allow users to privately communicate with one another. It's necessary because of the communication component. They will be able to discuss options for any projects or pitches they're considering, have completed, or are currently a part of.
+  * This is a very important feature because it will allow users to privately communicate with one another. It's necessary because of the communication component. They will be able to discuss options for any pitches or pitches they're considering, have completed, or are currently a part of.
   * In order to send a direct message a user will navigate to the Direct Messages button on the site. They will only be able to do this if they are signed into their account. Then, they will click the Direct Message button and be taken to the Direct Message page where a list of previous messages are stored. They can choose to send a new message or reply using a message thread already listed. 
   * Actors: User
   * BR3
 * **UC9** Create pitch pages.
-  * Creating pitch pages is an important part of the software because it is how the founders will advertise to potential investors or developers for their project. The pitch page hosts the information that will attract these users to the project. It's also the place that describes what the project is intended to be. 
+  * Creating pitch pages is an important part of the software because it is how the founders will advertise to potential investors or developers for their pitch. The pitch page hosts the information that will attract these users to the pitch. It's also the place that describes what the pitch is intended to be. 
   * To create a pitch page a founder will navigate to the button on the home page that says "Create Pitch". This will redirect them to the pitch creation page. Here, they'll have to enter the name of their pitch, details, and keywords for others to be able to find it. 
   * Actors: Founder
   * BR3
@@ -78,7 +78,7 @@
   * BR3
 
 * **UC12** Interchange between user roles.
-  * Interchanging between user roles is an important use case because users may have to switch between different roles. For example, a founder for a project may be a developer on another project and/or on the same project. Users need to be able to switch between roles so they can take on the different roles that are required of them per project.
+  * Interchanging between user roles is an important use case because users may have to switch between different roles. For example, a founder for a pitch may be a developer on another pitch and/or on the same pitch. Users need to be able to switch between roles so they can take on the different roles that are required of them per pitch.
   * Interchanging between user roles is fluid between it exists in the back-end to dictate functionality. The user is given the roles based on the tasks they perform. For example, if they click the Create Pitch tab they would then go through that process as a founder.
   * Actors: User
   * BR4
@@ -95,8 +95,8 @@
   * Actors: System, administrator
   * BR5
 * **UC15** Finish a given pitch.
-  * This use case is necessary because the project should eventually be completed. Once the project is finished funds can be dispersed. The end goal of the project is to eventually reach this point.
-  * In the project page the developer will find the "Finish" button within the project settings. Clicking it will finish the project.
+  * This use case is necessary because the pitch should eventually be completed. Once the pitch is finished funds can be dispersed. The end goal of the pitch is to eventually reach this point.
+  * In the pitch page the developer will find the "Finish" button within the pitch settings. Clicking it will finish the pitch.
   * Actors: Developer
   * BR5
 
@@ -113,19 +113,19 @@
   * BR5
 
 * **UC18** Change status of pitches.
-  * Changing the status of a pitch is essential to knowing how far along an idea is and what is left to fulfill. An administrator will change the status of a pitch as investors and developers submit proposals and they are approved by the founder. This is to keep our system in order and middle-man for the project team.
+  * Changing the status of a pitch is essential to knowing how far along an idea is and what is left to fulfill. An administrator will change the status of a pitch as investors and developers submit proposals and they are approved by the founder. This is to keep our system in order and middle-man for the pitch team.
   * This will be done by going to a pitch page as an administrator and choosing from a drop-down menu, switching the status on the public page.
   * Actors: Administrators
   * BR5
 
 * **UC19** Negotiate terms of a pitch.
-  * The ability to negotiate terms is important because it lets the different users involved in the process come to an agreement on project details. Once the different users come to agreement the pitch is complete and the project can move forward. Without this functionality, the users would find it difficult to come to an appropriate agreement on individual terms for the pitch. One way they will be able to negotiate is through the direct message functionality.
+  * The ability to negotiate terms is important because it lets the different users involved in the process come to an agreement on pitch details. Once the different users come to agreement the pitch is complete and the pitch can move forward. Without this functionality, the users would find it difficult to come to an appropriate agreement on individual terms for the pitch. One way they will be able to negotiate is through the direct message functionality.
   * To negotiate terms of a pitch the users will navigate to the direct messages page. Here, they can choose who to negotiate with by sending a message to them.
   * Actors: User
   * BR6
 * **UC20** Observe associated parties with the pitch.
-  * The investor or developers will want to be able to see the parties associated with certain pitches to make an educated decision on if they want to be involved with them. By being able to observe associated parties with the pitch the investor or developer can determine their overall quality and if they're worth being involved with based on the project. It could be someone the investor or developer has worked with before so they can make a decision based on their previous experience with them.
-  * The investor or developer will navigate to the pitch page. While there, they'll be able to see a contribution list of who has contributed to the project. They can click on each contributor to navigate to their profile and see more information about them.
+  * The investor or developers will want to be able to see the parties associated with certain pitches to make an educated decision on if they want to be involved with them. By being able to observe associated parties with the pitch the investor or developer can determine their overall quality and if they're worth being involved with based on the pitch. It could be someone the investor or developer has worked with before so they can make a decision based on their previous experience with them.
+  * The investor or developer will navigate to the pitch page. While there, they'll be able to see a contribution list of who has contributed to the pitch. They can click on each contributor to navigate to their profile and see more information about them.
   * Actors: Investor, Developer
   * BR6
   
