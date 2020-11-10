@@ -27,4 +27,4 @@ Startup
 - ... any other documents/links you see need
 
 ## **Code Repositories**
-
+[Jira Backlog](https://darkanvillabs-chooseup.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=CU&view=planning&selectedIssue=CU-5&issueLimit=100)
