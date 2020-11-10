@@ -1,7 +1,7 @@
 # Tech Stack
 
 ### Front-End Development: Vue.JS
-* We decided to use Vue due little front end experience. After talking with our client we found out that Vue is an up and coming front end development tool that could be worth learning in the process. Another deciding factor was the fact that Vue is in discussion to be integrated into our clients work environment. 
+* We decided to use Vue due to the group having very little front end experience. After talking with our client we found out that Vue is an up and coming front end development tool that could be worth learning in the process. Another deciding factor was the fact that Vue is in discussion to be integrated into our clients work environment. 
 * [Vue.JS](https://vuejs.org)
 
 ### Back-End Development: Microsoft .NET
