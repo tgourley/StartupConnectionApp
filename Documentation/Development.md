@@ -44,7 +44,7 @@ To run the frontend, in the command line mentioned above, run the commands in th
 2. `npm run serve`
 	1. Runs the frontend and displays localhost link
 3. open localhost link in command line:
-	1. Opens the webpage in localhost in your deafult browser
+	1. Opens the webpage in localhost in your default browser
 
 To stop the system, execute CTRL+C or CMD+C in the terminal which terminates the server
 
@@ -73,7 +73,10 @@ dotnet run --project "{PROJECT_PATH}\Choose-up-api.csproj"
 
 ## Running Tests
 
-1. To see the tests running perform: npm run test:unit in the main choose-up-ui folder
+1. To see the tests running perform this command in the main choose-up-ui folder: 
+```
+npm run test:unit 
+```
 2. The console will then output a suite of tests that will look like this:
 
 ![Test Suite](../Auxiliary%20Files/DevDocPictures/testSuite.png)
