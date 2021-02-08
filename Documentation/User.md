@@ -8,11 +8,11 @@ The first thing you need to do is log in with your account information. You can 
 
 After you enter the username and password for the user, click sign in and it will redirect you pack to the home page of the Choose Up webpage.
 
-![Search Tab](../Auxiliary%20Files/UserDocPictures/message2.png)
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/message2.png)
 
 If you don't have an account, click sign up on the sign in page. This will bring you to the page below where you can enter your information and register your account.
 
-![Search Tab](../Auxiliary%20Files/Message%20Pictures/SignIn1.png)
+![Search Tab](../Auxiliary%20Files/UserDocPictures/SignIn1.png)
 
 ## Search
 You can perform a search from anywhere on the site, but you will not be able to see the results unless you go to the search page. To navigate to the search page click the “Search” tab at the top of the main page.
