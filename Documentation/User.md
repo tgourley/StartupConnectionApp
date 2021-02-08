@@ -8,11 +8,11 @@ The first thing you need to do is log in with your account information. You can 
 
 After you enter the username and password for the user, click sign in and it will redirect you pack to the home page of the Choose Up webpage.
 
-![Search Tab](../Auxiliary%20Files/UserDocPictures/SignIn1.png)
+![Search Tab](../Auxiliary%20Files/UserDocPictures/message2.png)
 
 If you don't have an account, click sign up on the sign in page. This will bring you to the page below where you can enter your information and register your account.
 
-![Search Tab](../Auxiliary%20Files/Message%20Pictures/message2.png)
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/SignIn1.png)
 
 ## Search
 You can perform a search from anywhere on the site, but you will not be able to see the results unless you go to the search page. To navigate to the search page click the “Search” tab at the top of the main page.
@@ -89,13 +89,6 @@ Paste the url in your address bar and check out your cool new pitch!
 ![Search Tab](../Auxiliary%20Files/UserDocPictures/Pitch5.png)
 
 ## Messaging
-The first thing that needs to be accomplished when it comes to creating chats is you need to log in with the account information. You can log in by clicking the gray circle in the top right corner of the home page.  When you click the gray circle it will take you to the okta log in page.
-
-![Search Tab](../Auxiliary%20Files/Message%20Pictures/message1.png)
-
-After you enter the username and password for the user, click sign in and it will redirect you pack to the home page of the Choose Up webpage.
-
-![Search Tab](../Auxiliary%20Files/Message%20Pictures/message2.png)
 
 Once the you are back at the home page you need to click the messages tab centered at the top of the page below the search bar. When you click the “Messages” tab it will guide you to the page for viewing messages. 
 
