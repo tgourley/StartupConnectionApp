@@ -6,7 +6,6 @@ A website to connect founders, investors, and developers.
 ## **Team Members**
 
 - Chris Bucker
-- Haden Foster
 - Robert Klueber
 - Julian Price
 - James Shallcross
