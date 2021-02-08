@@ -2,8 +2,17 @@
 ## Server
 Our software uses a combination of PostgreSQL for backend database management, .NET for our business logic and connecting the frontend to the database, and an npm server for the local JavaScript. Currently, only npm is implemented in this iteration due to not having a fully connected backend.
 
+ ## Cloning the Repository
+ 
+ ### GitLab
+ 
+ To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links when in a 'Choose Up' folder to store both repositories:
+ 
+ Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
+ Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
+
 ## File format
-The file for our project (choose-up-ui) can be downloaded and placed anywhere you have admin rights. Once you have the file saved, open it up in the command line (path should be /"path name"/choose-up-ui)
+The file for our project (choose-up-ui) can be downloaded and placed anywhere you have admin rights. Once you have the file saved, open it up in the command line (path should be /"path name"/choose-up-ui).
 
 ## Running the system
 ###  Frontend
@@ -22,6 +31,11 @@ To run the frontend, in the command line mentioned above, run the commands in th
     a. Opens the webpage in localhost in your default browser.
 
 To stop the system, execute CTRL+C or CMD+C in the terminal which terminates the server.
+
+### Database
+
+1. To run the PostgresSQL server start up the ‘pgAdmin’ application ( If first time startup perform step two as well )
+2. Set a username and password for the local user.
 
 ## Backend
 
