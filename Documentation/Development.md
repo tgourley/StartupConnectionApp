@@ -22,7 +22,7 @@
  
  ### GitLab
  
- To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links:
+ To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links when in a 'Choose Up' folder to store both repositories:
  
  Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
  Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
