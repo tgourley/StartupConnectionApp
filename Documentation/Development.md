@@ -73,6 +73,7 @@ dotnet run --project "{PROJECT_PATH}\Choose-up-api.csproj"
 
 ## Running Tests
 
+### Frontend
 1. To see the tests running perform this command in the main choose-up-ui folder: 
 ```
 npm run test:unit 
@@ -87,3 +88,16 @@ npm run test:unit
 5. At the bottom it will give you information about all the tests, test suites, and the time it took to run. This looks like
 
 ![Test Results](../Auxiliary%20Files/DevDocPictures/testResults.png)
+
+### Backend
+
+1. Inside the Choose-Up-Api folder cd into tests then cd into UnitTests
+2. Once inside the UnitTests folder run the command
+```
+dotnet test
+```
+3. This will result in a output that looks like this:
+
+![Test Results](../Auxiliary%20Files/DevDocPictures/backendTestResults.png)
+
+4. The number to the right of each word is how many fullfilled that condition
