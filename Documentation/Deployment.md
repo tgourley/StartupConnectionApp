@@ -11,9 +11,6 @@ Our software uses a combination of PostgreSQL for backend database management, .
  Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
  Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
 
-## File format
-The file for our project (choose-up-ui) can be downloaded and placed anywhere you have admin rights. Once you have the file saved, open it up in the command line (path should be /"path name"/choose-up-ui).
-
 ## Running the system
 ###  Frontend
 To run the frontend, in the command line mentioned above, run the commands in the Choose-Up-UI main folder:
@@ -34,8 +31,9 @@ To stop the system, execute CTRL+C or CMD+C in the terminal which terminates the
 
 ### Database
 
-1. To run the PostgresSQL server start up the ‘pgAdmin’ application ( If first time startup perform step two as well )
+1. To run the PostgresSQL server start up the ‘pgAdmin’ application ( If first time startup perform step two as well ).
 2. Set a username and password for the local user.
+3. The backend will create the database based on the backend models. This will result in a schema being created called 'Users'.
 
 ## Backend
 
