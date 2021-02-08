@@ -16,8 +16,6 @@
 	- Recommended so developers may have both frontend and backend open in the same editor.
 	
 
-## Important Files/Dir
-
  ## Cloning the Repository
  
  ### GitLab
@@ -27,6 +25,7 @@
  Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
  Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
 
+## Important Files/Dir
 
  ### Choose-up-api
  
