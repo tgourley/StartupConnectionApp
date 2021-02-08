@@ -61,6 +61,7 @@ To stop the system, execute CTRL+C or CMD+C in the terminal which terminates the
 
 1. To run the PostgresSQL server start up the ‘pgAdmin’ application ( If first time startup perform step two as well )
 2. Set a username and password for the local user
+3. The backend will create the database based on the backend models. This will result in a schema being created called 'Users'
 
 ### Backend
 
