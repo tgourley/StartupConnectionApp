@@ -18,6 +18,16 @@
 
 ## Important Files/Dir
 
+ ## Cloning the Repository
+ 
+ ### GitLab
+ 
+ To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links:
+ 
+ Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
+ Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
+
+
  ### Choose-up-api
  
  - The 'Controllers' folder will hold any controller which will modify the database directly.
