@@ -4,7 +4,7 @@
 ## Signing in
 The first thing you need to do is log in with your account information. You can log in by clicking the gray circle in the top right corner of the home page.  When you click the gray circle it will take you to the okta log in page.
 
-![Search Tab](../Auxiliary%20Files/Message%20Pictures/message1.png)
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/message1.jpg)
 
 After you enter the username and password for the user, click sign in and it will redirect you pack to the home page of the Choose Up webpage.
 
@@ -17,11 +17,15 @@ If you don't have an account, click sign up on the sign in page. This will bring
 ## Search
 You can perform a search from anywhere on the site, but you will not be able to see the results unless you go to the search page. To navigate to the search page click the “Search” tab at the top of the main page.
 
-![Search Tab](../Auxiliary%20Files/Search%20Pictures/Search%20Tab%20Pointer.png)
+![Search Tab](../Auxiliary%20Files/Search%20Pictures/Search%20Tab%20Pointer.jpg)
 
 After selecting the “Search” tab, your web page will be redirected to the Search Results page and the “Search” tab will be re-colored light green to indicate that you are currently on that web page.
 
-![Search Tab](../Auxiliary%20Files/Search%20Pictures/Search%20Results%20Page%20Before%20Searching.png)
+![Search Tab](../Auxiliary%20Files/Search%20Pictures/Default%20Search%20Page.jpg)
+
+Select the Users button at the top.
+
+![Search Tab](../Auxiliary%20Files/Search%20Pictures/Selected_User_Button.jpg)
 
 After your browser has completed redirecting you to the Search Results page, you will notice that the Search Results table is empty. This is because you have not performed a search yet. To perform a search, move your cursor to the “Search” bar at the top and left-click on the “Search” text within the bar. 
 
