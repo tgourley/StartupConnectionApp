@@ -6,7 +6,6 @@ A website to connect founders, investors, and developers.
 ## **Team Members**
 
 - Chris Bucker
-- Haden Foster
 - Robert Klueber
 - Julian Price
 - James Shallcross
@@ -28,4 +27,5 @@ Dark Anvil
 
 ## **Code Repositories**
 [Choose-Up-Api](https://gitlab.com/Cjbucker/choose-up-api)  
-[Choose-Up-Ui](https://gitlab.com/Cjbucker/choose-up-ui)
+[Choose-Up-Ui](https://gitlab.com/Cjbucker/choose-up-ui)  
+[Choose-Up-Docker](https://gitlab.com/Cjbucker/choose-up-docker)

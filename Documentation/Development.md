@@ -14,7 +14,19 @@
  - [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
  	- Requires the [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet) from extensions
 	- Recommended so developers may have both frontend and backend open in the same editor.
+ - [Docker](https://www.docker.com/)
+ 	- Needed for dev environment
 	
+
+ ## Cloning the Repository
+ 
+ ### GitLab
+ 
+ To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links when in a 'Choose Up' folder to store all repositories:
+ 
+ Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git  
+ Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git  
+ Choose-up-docker: https://gitlab.com/Cjbucker/choose-up-docker.git  
 
 ## Important Files/Dir
 
@@ -34,45 +46,33 @@
  - 'Store' holds the functionality to modify states and an indirect connection to the api
  - 'Services' holds all api based functionality that could be replaced if need be.
  - 'Components' hold .vue files that will show up multiple times through different views
+
+### Choose-up-Docker
+ - Docker-compose.yml is used for creating and running the images for the ui, api, and db
  
 ## Running Developer Environment
 
-### Frontend
-To run the frontend, in the command line mentioned above, run the commands in the Choose-Up-UI main folder:
-1. `npm install`
-	1. Assures necessary files are installed in the project
-2. `npm run serve`
-	1. Runs the frontend and displays localhost link
-3. open localhost link in command line:
-	1. Opens the webpage in localhost in your default browser
-
-To stop the system, execute CTRL+C or CMD+C in the terminal which terminates the server
-
-### Database
-
-1. To run the PostgresSQL server start up the ‘pgAdmin’ application ( If first time startup perform step two as well )
-2. Set a username and password for the local user
-
-### Backend
-
-To run the backend API, perform the following commands:
-
- 1. In ‘appsettings.json', find ‘localhost’ under ‘ConnectionStrings' then change the ‘User Id' and ‘Password’ fields to be the database id and password. Example ‘ConnectionStrings’:
+1. Within the docker folder run the command to get the database image for postgresql
 ```
-"ConnectionStrings": {
-    "localhost":"Server=127.0.0.1;Port=5432;Database=ChooseUp;User Id=postgres;Password=admin"
-  }
+docker-compose pull db
 ```
-2. In the main Choose-Up-API folder, perform the command: ( If using VS)
+2. Run the command to build the images for the ui and api
+```
+docker-compose build
+```
+3. Run the command to put the images into containers. The '-d' keeps the terminal open for other uses.
+```
+docker-compose up -d
+```
 
-	1. { PROJECT_PATH } is the folder path of the whole project
-```
-dotnet run --project "{PROJECT_PATH}\Choose-up-api.csproj"
-```
-3. The terminal will then state the API is running and where.
+All three modules should now be running in Docker, this can be checked within the Docker application.  
+Go to 'localhost:8081' to view the website.
+
+If given a connection error, stop and start the api, through the docker app, to assure it is connected to the db.
 
 ## Running Tests
 
+### Frontend
 1. To see the tests running perform this command in the main choose-up-ui folder: 
 ```
 npm run test:unit 
@@ -87,3 +87,16 @@ npm run test:unit
 5. At the bottom it will give you information about all the tests, test suites, and the time it took to run. This looks like
 
 ![Test Results](../Auxiliary%20Files/DevDocPictures/testResults.png)
+
+### Backend
+
+1. Inside the Choose-Up-Api folder cd into tests then cd into UnitTests
+2. Once inside the UnitTests folder run the command
+```
+dotnet test
+```
+3. This will result in a output that looks like this:
+
+![Test Results](../Auxiliary%20Files/DevDocPictures/backendTestResults.png)
+
+4. The number to the right of each word is how many fullfilled that condition
