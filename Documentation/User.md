@@ -33,7 +33,7 @@ After your browser has completed redirecting you to the Search Results page, you
 
 After selecting the search bar, it will be in focus and you can begin typing your search. For the purpose of this example, we will type in “John”, an example user. After typing in your search text, press “Enter” on your keyboard while your search bar remains in focus or click the blue search button with a magnifying glass in its center. The image below serves as an example of the search text and the button you should click to perform the search operation.
 
-![Search Tab](../Auxiliary%20Files/Search%20Pictures/search_bar.png)
+![Search Tab](../Auxiliary%20Files/Search%20Pictures/search_bar.PNG)
 
 After the button is clicked or the user presses enter, the search results will appear in the table.
 
