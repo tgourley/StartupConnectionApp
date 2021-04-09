@@ -114,6 +114,16 @@ After you click the “Create” button, the small window that appeared will dis
 
 ![Search Tab](../Auxiliary%20Files/Message%20Pictures/message7.png)
 
+Users can be added from the upper left hand conner of the chat box. Only the creator of the chat can add users to this new chat.
 
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/message8.png)
 
+Once the button is clicked it will open up this window. By searching for a user, clicking their name from the dropdown, and then clicking the 'Add' button will add the user to the chat.
 
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/message9.png)
+
+Users can also be removed by clicking the button next to the addition of users. Simply click that button and follow the same steps as you would for adding a user.
+
+Messages can also be sent within a chat. To send a message locate the text field in the middle bottom of your screen. Type whatever message you want to send to the chat and press the 'Enter' key. This will display your message in the chat for everyone to see. Messages from you will come on the lefthand side in grey, while messages from others will come in blue.
+
+![Search Tab](../Auxiliary%20Files/Message%20Pictures/message10.png)
