@@ -1,6 +1,12 @@
 # Deployment Documentation
+
+## User Auth
+To implement Okta as the user authentication use their website at: https://www.okta.com/  
+Once you have followed the instructions to start the Okta service, find the clientId and the issuer of your okta service and
+place this information inside the given fields at the top of router.js inside the ui project
+
 ## Server
-Our software uses a combination of PostgreSQL for backend database management, .NET for our business logic and connecting the frontend to the database, and an npm server for the local JavaScript. Currently, only npm is implemented in this iteration due to not having a fully connected backend.
+Our software uses a combination of PostgreSQL for backend database management, .NET for our business logic and connecting the frontend to the database, and an npm server for the local JavaScript.
 
  ## Cloning the Repository
  
@@ -8,14 +14,14 @@ Our software uses a combination of PostgreSQL for backend database management, .
  
  To get the projects code, issue the command git clone in the terminal of Visual Studio code with the following links when in a 'Choose Up' folder to store both repositories:
  
- Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git
+ Choose-up-api: https://gitlab.com/Cjbucker/choose-up-api.git  
  Choose-up-ui: https://gitlab.com/Cjbucker/choose-up-ui.git
 
 ## Running the system
 ###  Frontend
 To run the frontend, in the command line mentioned above, run the commands in the Choose-Up-UI main folder:
 
-1. npm install
+1. npm run build
 
     a. Assures necessary files are installed in the project.
 
@@ -46,9 +52,9 @@ To run the backend api, perform the following commands:
     "localhost":"Server=127.0.0.1;Port=5432;Database=ChooseUp;User Id=postgres;Password=admin"
   }
 ```
-2. In the main Choose-Up-API folder, perform the command:
+2. In the main Choose-Up-API folder got to src then perform the command:
 ```
-dotnet run --project "{PROJECT_PATH}\Choose-up-api.csproj"
+dotnet run 
 ```
 3. The terminal will then state the API is running and where.
 
